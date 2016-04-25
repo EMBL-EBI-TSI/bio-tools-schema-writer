@@ -1,0 +1,578 @@
+<?xml version="1.0" ?>
+<resources>
+   <resource>
+      <name>PMut</name>
+      <homepage>http://mmb.pcb.ub.es/PMut/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>Pmut is a software aimed at the annotation and prediction of pathological mutations, and in particular to answer the following question:given a mutation happening at a specific location in a protein sequence, can we say whether it can be pathological (that is, it can lead to disease for the carrier) or non-pathological/neutral (no effect on the carrier's health)?</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>BWA /SamTools /Picard</name>
+      <homepage>https://www.bsc.es/</homepage>
+      <resourceType>Container</resourceType>
+      <interface>
+         <interfaceType>API</interfaceType>
+      </interface>
+      <description>Aligner / Mapper for NGS reads, utilities for sequence management</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Maker</name>
+      <homepage>http://www.yandell-lab.org/software/maker.html</homepage>
+      <resourceType>Container</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Genome annotation tool</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0362">Genome annotation</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>GATK</name>
+      <homepage>https://www.broadinstitute.org/gatk/</homepage>
+      <resourceType>Container</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Analysis of NGS sequence data</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Bowtie</name>
+      <homepage>http://bowtie-bio.sourceforge.net/index.shtml</homepage>
+      <resourceType>Container</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Read aligner</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_3198">Read mapping</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Tophat</name>
+      <homepage>https://ccb.jhu.edu/software/tophat/index.shtml</homepage>
+      <resourceType>Container</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Read aligner for RNAseq data</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_3198">Read mapping</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>transPLANT/INB Cloud</name>
+      <homepage>http://www.transplantdb.eu/Cloud</homepage>
+      <resourceType>Platform</resourceType>
+      <interface>
+         <interfaceType>Web UI?</interfaceType>
+      </interface>
+      <description>The Transplant Cloud environemt is a integrated environment based on openNebula Cloud manager, powered by COMPSs/PMES. Includes generic genome analysis tools and other more oriented ot plant genomics. Access is possible through a web portal, web services (SOAP) and through a Galaxy interface.</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>EBI Tools Portfolio</name>
+      <homepage>http://www.ebi.ac.uk</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI, Soap WS, HTTP WS </interfaceType>
+      </interface>
+      <description>EMBL-EBI hosts over 100 tools (both well-known public tools and internally developed software) that are openly available for users around the world - http://www.ebi.ac.uk/services. Programmic interfaces to many of our services and tools are documented - http://www.ebi.ac.uk/Tools/webservices/.</description>
+      <topic uri="http://edamontology.org/topic_0080">Sequence analysis</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>COMPSs</name>
+      <homepage>https://www.bsc.es/</homepage>
+      <resourceType>Platform</resourceType>
+      <interface>
+         <interfaceType>API, Command line, Desktop GUI</interfaceType>
+      </interface>
+      <description>Sequential programming model
+General purpose programming languages + annotations/hints
+Exploitation of implicit parallelism
+Automatic on-the-fly creation of a 
+task dependency graph
+COMPSs workflows portable to HPC and Cloud without change
+</description>
+      <topic uri="http://edamontology.org/topic_0003">EDAM Topic</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Galaxy</name>
+      <homepage>https://galaxyproject.org/</homepage>
+      <resourceType>Platform</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_0003">EDAM Topic</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Taverna</name>
+      <homepage>http://incubator.apache.org/projects/taverna.html</homepage>
+      <resourceType>Platform</resourceType>
+      <interface>
+         <interfaceType>Desktop UI, Command line</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_0003">EDAM Topic</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>KNIME</name>
+      <homepage>http://www.knime.org/</homepage>
+      <resourceType>Platform</resourceType>
+      <interface>
+         <interfaceType>Desktop UI</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_0003">EDAM Topic</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>CS-ROSETTA3</name>
+      <homepage>http://haddock.science.uu.nl/enmr/services/CS-ROSETTA3/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>CS ROSETTA is a protocol which generates 3D models of proteins, using only the 13CA, 13CB, 13C', 15N, 1HA and 1HN NMR chemical shifts as input. Based on these parameters, CS ROSETTA uses a SPARTA-based selection procedure to select a set of fragments from a fragment-library (where the chemical shifts and the 3D structure of the fragments are known). The fragments are assembled using the ROSETTA protocol. The generated models are rescored based on the difference between the back-calculated chemical shifts of the generated models and the input chemical shifts.</description>
+      <topic uri="http://edamontology.org/topic_2275">Molecular modelling</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0477">Protein modelling</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>3D-DART</name>
+      <homepage>http://haddock.science.uu.nl/services/3DDART/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>The 3D-DART server (3DNA-Driven DNA Analysis and Rebuilding Tool) provides a convenient means of generating custom 3D structural models of DNA with control over the local and global conformation.
+3D-DART uses the DNA rebuild functionality of the well-known software package 3DNA Lu et al. and extends its functionally with tools to change the global conformation of the DNA models.</description>
+      <topic uri="http://edamontology.org/topic_2275">Molecular modelling</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_2426">Modelling and simulation</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Gromacs</name>
+      <homepage>http://www.gromacs.org/</homepage>
+      <resourceType>Library</resourceType>
+      <interface>
+         <interfaceType>API</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>CPMD</name>
+      <homepage>http://www.cpmd.org/</homepage>
+      <resourceType>Tool</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>MDWeb</name>
+      <homepage>http://mmb.irbbarcelona.org/MDWeb/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>Web-based platform to help access to molecular dynamics (MD). The platform provides tools to prepare systems from PDB structures mimicking the procedures followed by human experts. It provides inputs and can send simulations for three of the most popular MD packages (Amber, NAMD and Gromacs). Tools for analysis of trajectories are also incorporated.</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>MDMoby</name>
+      <homepage>http://mmb.irbbarcelona.org/MDWeb/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>HTTP WS, Command line</interfaceType>
+      </interface>
+      <description>Set of semantic Web-Services to help access to molecular dynamics (MD) simulations. Semantic information is added using the BioMoby library and a MD Ontology.</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>MDdMD</name>
+      <homepage>http://mmb.irbbarcelona.org/MDdMD/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>MDdMD is a web portal for determining pathways for conformational transitions in macromolecules based on the use of discrete molecular dynamics and biasing techniques based on a combination of essential dynamics and Maxwell-Demon sampling techniques. </description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>GOdMD</name>
+      <homepage>http://mmb.irbbarcelona.org/GOdMD/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>GOdMD is a web portal for determining pathways for conformational transitions in macromolecules based on the use of discrete molecular dynamics and biasing techniques based on a combination of essential dynamics and Maxwell-Demon sampling techniques. </description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>DISCRETE (DMD)</name>
+      <homepage/>
+      <resourceType>Tool</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Coarse-Grained Molecular Dynamics simulation package</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>MoDEL</name>
+      <homepage>http://mmb.irbbarcelona.org/MoDEL/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>Database of protein Molecular Dynamics simulations, with 1800 trajectories representing different structural clusters of the PDB.</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>BIGNASim</name>
+      <homepage>http://mmb.irbbarcelona.org/BigNASim/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>Database of nucleic acids Molecular Dynamics simulations</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>FlexServ</name>
+      <homepage>http://mmb.irbbarcelona.org/FlexServ/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>Web portal offering a complete set of macromolecular  flexibility analyses from a coarse-grained or atomistic MD trajectory</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>DNAlive</name>
+      <homepage>http://mmb.irbbarcelona.org/DNAlive/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>DNAlive is a tool for the analysis of structural and physical characteristics of genomic DNA.</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>NAFlex</name>
+      <homepage>http://mmb.irbbarcelona.org/NAFlex/</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>NAFlex is a web tool for the analysis of nucleic acids flexibility, both isolated and protein-bound. </description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>PCASuite</name>
+      <homepage>http://mmb.pcb.ub.edu/software/pcasuite/</homepage>
+      <resourceType>Tool</resourceType>
+      <interface>
+         <interfaceType>Command line</interfaceType>
+      </interface>
+      <description>Software tool to handle PCA analyses of macromolecular coarse-grained or atomistic MD trajectory</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>GROMACS grid-enabled WeNMR portal</name>
+      <homepage>http://haddock.science.uu.nl/enmr/services/GROMACS/main.php</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>The WeNMR GROMACS web portal combines the versatility of this molecular dynamics package with the calculation power of the eNMR grid. This will enable you to perform many simulations from the comfort of your internet browser anywhere in the world. The server is furthermore aimed to provide a user friendly and efficient MD experience by performing many preparation and optimization steps automatically.
+
+Note: requires registration with the WeNMR Virtual Research Community (www.wenmr.eu), registration with the enmr.eu VO (requires thus a valid X509 personnal certificate). The portal uses a single sign-on mechanism impletmented in WeNMR</description>
+      <topic uri="http://edamontology.org/topic_0176">Molecular dynamics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>HADDOCK</name>
+      <homepage>http://haddock.science.uu.nl/services/HADDOCK2.2/haddock.php</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI, SOAP WS</interfaceType>
+      </interface>
+      <description>HADDOCK (High Ambiguity Driven protein-protein DOCKing) is an information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes. 
+
+Offers multiple access interfaces to the users:
+- the Easy interface
+- the Prediction interface
+- the Expert interface (requires Expert level access)
+- the Refinement interface (requires Expert level access)
+- the Guru interface (requires Guru level access)
+- the Multi-body interface (requires Guru level access)
+- the File upload interface
+- generate AIR files for multibody docking
+</description>
+      <topic uri="http://edamontology.org/topic_0177">Molecular docking</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>HADDOCK grid-enabled</name>
+      <homepage>http://haddock.science.uu.nl/services/HADDOCK2.2/haddock.php</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI, SOAP WS</interfaceType>
+      </interface>
+      <description>HADDOCK (High Ambiguity Driven protein-protein DOCKing) is an information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes. 
+
+Offers multiple access interfaces to the users:
+- the Easy interface
+- the Prediction interface
+- the Expert interface (requires Expert level access)
+- the Refinement interface (requires Expert level access)
+- the Guru interface (requires Guru level access)
+- the Multi-body interface (requires Guru level access)
+- the File upload interface
+- generate AIR files for multibody docking
+</description>
+      <topic uri="http://edamontology.org/topic_0177">Molecular docking</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>SeaBed</name>
+      <homepage>http://www.bsc.es/SEABED</homepage>
+      <resourceType>Service</resourceType>
+      <interface>
+         <interfaceType>Web UI</interfaceType>
+      </interface>
+      <description>The SEABED web server integrates a variety of docking and QSAR techniques in a user-friendly environment. SEABED goes beyond the basic docking and QSAR web tools and implements extended functionalities like receptor preparation, library editing, flexible ensemble docking, hybrid docking/QSAR experiments or virtual screening on protein mutants. </description>
+      <topic uri="http://edamontology.org/topic_0177">Molecular docking</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+   <resource>
+      <name>Open PHACTS</name>
+      <homepage>https://www.openphacts.org/</homepage>
+      <resourceType>Service, Container</resourceType>
+      <interface>
+         <interfaceType>HTTP WS</interfaceType>
+      </interface>
+      <description/>
+      <topic uri="http://edamontology.org/topic_2258">Chemoinformatics</topic>
+      <function>
+         <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
+      </function>
+      <contact>
+         <contactName/>
+         <contactEmail/>
+      </contact>
+   </resource>
+</resources>
