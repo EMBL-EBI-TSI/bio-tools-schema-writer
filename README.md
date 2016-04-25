@@ -1,4 +1,4 @@
-# bio.tools XML schema writer (from a Google SpreadSheet)
+# bio.tools XML writer (from a Google SpreadSheet)
 
 About the schema:  
 
