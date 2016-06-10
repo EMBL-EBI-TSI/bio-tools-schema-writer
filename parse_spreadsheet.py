@@ -36,8 +36,9 @@ for row_i in xrange(3,35):
 
 	# set interface type
 	xml_output_resource_interface = ET.SubElement(xml_output_resource, 'interface')
-	xml_output_resource_interface_type = ET.SubElement(xml_output_resource_interface, 'interfaceType')
-	xml_output_resource_interface_type.text = row[3]
+	for intercace_type_elem in row[3].split(','):
+		xml_output_resource_interface_type = ET.SubElement(xml_output_resource_interface, 'interfaceType')
+		xml_output_resource_interface_type.text = intercace_type_elem.strip()
 	
 	# set description
 	xml_output_resource_description = ET.SubElement(xml_output_resource, 'description')
@@ -56,10 +57,10 @@ for row_i in xrange(3,35):
 
 	# set contact
 	xml_output_resource_contact = ET.SubElement(xml_output_resource, 'contact')
-	xml_output_resource_contact_name = ET.SubElement(xml_output_resource_contact, 'contactName')
-	xml_output_resource_contact_name.text = row[8]
 	xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactEmail')
 	xml_output_resource_contact_email.text = row[9]
+	xml_output_resource_contact_name = ET.SubElement(xml_output_resource_contact, 'contactName')
+	xml_output_resource_contact_name.text = row[8]
 
 # write xml file
 print 'Writing to file...'
