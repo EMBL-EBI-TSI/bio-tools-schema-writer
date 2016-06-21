@@ -13,8 +13,8 @@
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -30,8 +30,8 @@
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -47,8 +47,8 @@
          <functionName uri="http://edamontology.org/operation_0362">Genome annotation</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -64,8 +64,8 @@
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -81,8 +81,8 @@
          <functionName uri="http://edamontology.org/operation_3198">Read mapping</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -98,8 +98,8 @@
          <functionName uri="http://edamontology.org/operation_3198">Read mapping</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -115,8 +115,8 @@
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -138,8 +138,8 @@
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>www-prod@ebi.ac.uk</contactEmail>
+         <contactName>EMBL - European Bioinformatics Institute</contactName>
       </contact>
    </resource>
    <resource>
@@ -167,8 +167,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@bsc.es</contactEmail>
+         <contactName>Barcelona Supercomputing Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -184,8 +184,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>https://galaxyproject.org/</contactEmail>
+         <contactName>Galaxy Project</contactName>
       </contact>
    </resource>
    <resource>
@@ -204,8 +204,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://incubator.apache.org/projects/taverna.html</contactEmail>
+         <contactName>Apache Taverna</contactName>
       </contact>
    </resource>
    <resource>
@@ -221,8 +221,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.knime.org/contact</contactEmail>
+         <contactName>KNIME project</contactName>
       </contact>
    </resource>
    <resource>
@@ -238,8 +238,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0477">Protein modelling</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.wenmr.eu/wenmr/support/wenmr-support</contactEmail>
+         <contactName>WeNMR Center</contactName>
       </contact>
    </resource>
    <resource>
@@ -256,8 +256,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_2426">Modelling and simulation</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.uu.nl/organisatie/contact</contactEmail>
+         <contactName>University of Utrech</contactName>
       </contact>
    </resource>
    <resource>
@@ -273,8 +273,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.gromacs.org/Support/Mailing_Lists</contactEmail>
+         <contactName>GROMACS support</contactName>
       </contact>
    </resource>
    <resource>
@@ -290,8 +290,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://cpmd.org/contact-info</contactEmail>
+         <contactName>CPMD contact</contactName>
       </contact>
    </resource>
    <resource>
@@ -307,8 +307,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -327,8 +327,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -344,8 +344,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -361,8 +361,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -378,8 +378,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -395,8 +395,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -412,8 +412,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -429,8 +429,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -446,8 +446,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -463,8 +463,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -480,8 +480,8 @@ COMPSs workflows portable to HPC and Cloud without change
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -499,8 +499,8 @@ Note: requires registration with the WeNMR Virtual Research Community (www.wenmr
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.uu.nl/organisatie/contact</contactEmail>
+         <contactName>University of Utrech</contactName>
       </contact>
    </resource>
    <resource>
@@ -530,8 +530,8 @@ Offers multiple access interfaces to the users:
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.uu.nl/organisatie/contact</contactEmail>
+         <contactName>University of Utrech</contactName>
       </contact>
    </resource>
    <resource>
@@ -561,8 +561,8 @@ Offers multiple access interfaces to the users:
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>http://www.uu.nl/organisatie/contact</contactEmail>
+         <contactName>University of Utrech</contactName>
       </contact>
    </resource>
    <resource>
@@ -578,8 +578,8 @@ Offers multiple access interfaces to the users:
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@irbbarcelona.org</contactEmail>
+         <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
@@ -596,8 +596,8 @@ Offers multiple access interfaces to the users:
          <functionName uri="http://edamontology.org/operation_0004">EDAM Function</functionName>
       </function>
       <contact>
-         <contactEmail>na</contactEmail>
-         <contactName>na</contactName>
+         <contactEmail>info@openphactsfoundation.org</contactEmail>
+         <contactName>Open PHACTS foundation</contactName>
       </contact>
    </resource>
 </resources>
