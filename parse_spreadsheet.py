@@ -31,12 +31,13 @@ for row_i in xrange(3,35):
 	xml_output_resource_homepage.text = row[1]
 	
 	# set resource type
-	xml_output_resource_resource_type = ET.SubElement(xml_output_resource, 'resourceType')
-	xml_output_resource_resource_type.text = row[2]
+	for resource_type_elem in row[2].split(','):
+		xml_output_resource_resource_type = ET.SubElement(xml_output_resource, 'resourceType')
+		xml_output_resource_resource_type.text = resource_type_elem.strip()
 
 	# set interface type
-	xml_output_resource_interface = ET.SubElement(xml_output_resource, 'interface')
 	for intercace_type_elem in row[3].split(','):
+		xml_output_resource_interface = ET.SubElement(xml_output_resource, 'interface')
 		xml_output_resource_interface_type = ET.SubElement(xml_output_resource_interface, 'interfaceType')
 		xml_output_resource_interface_type.text = intercace_type_elem.strip()
 	

@@ -103,7 +103,7 @@
       </contact>
    </resource>
    <resource>
-      <name>transPLANT/INB Cloud</name>
+      <name>transPLANT-INB Cloud</name>
       <homepage>http://www.transplantdb.eu/Cloud</homepage>
       <resourceType>Platform</resourceType>
       <interface>
@@ -125,7 +125,11 @@
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
-         <interfaceType>Soap WS</interfaceType>
+      </interface>
+      <interface>
+         <interfaceType>SOAP WS</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>HTTP WS</interfaceType>
       </interface>
       <description>EMBL-EBI hosts over 100 tools (both well-known public tools and internally developed software) that are openly available for users around the world - http://www.ebi.ac.uk/services. Programmic interfaces to many of our services and tools are documented - http://www.ebi.ac.uk/Tools/webservices/.</description>
@@ -144,7 +148,11 @@
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>API</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>Command line</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>Desktop GUI</interfaceType>
       </interface>
       <description>Sequential programming model
@@ -185,7 +193,9 @@ COMPSs workflows portable to HPC and Cloud without change
       <homepage>http://incubator.apache.org/projects/taverna.html</homepage>
       <resourceType>Platform</resourceType>
       <interface>
-         <interfaceType>Desktop UI</interfaceType>
+         <interfaceType>Desktop GUI</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>Command line</interfaceType>
       </interface>
       <description/>
@@ -203,7 +213,7 @@ COMPSs workflows portable to HPC and Cloud without change
       <homepage>http://www.knime.org/</homepage>
       <resourceType>Platform</resourceType>
       <interface>
-         <interfaceType>Desktop UI</interfaceType>
+         <interfaceType>Desktop GUI</interfaceType>
       </interface>
       <description/>
       <topic uri="http://edamontology.org/topic_0003">EDAM Topic</topic>
@@ -307,6 +317,8 @@ COMPSs workflows portable to HPC and Cloud without change
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>HTTP WS</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>Command line</interfaceType>
       </interface>
       <description>Set of semantic Web-Services to help access to molecular dynamics (MD) simulations. Semantic information is added using the BioMoby library and a MD Ontology.</description>
@@ -497,6 +509,8 @@ Note: requires registration with the WeNMR Virtual Research Community (www.wenmr
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>SOAP WS</interfaceType>
       </interface>
       <description>HADDOCK (High Ambiguity Driven protein-protein DOCKing) is an information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes. 
@@ -526,6 +540,8 @@ Offers multiple access interfaces to the users:
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
+      </interface>
+      <interface>
          <interfaceType>SOAP WS</interfaceType>
       </interface>
       <description>HADDOCK (High Ambiguity Driven protein-protein DOCKing) is an information-driven flexible docking approach for the modeling of biomolecular complexes. HADDOCK distinguishes itself from ab-initio docking methods in the fact that it encodes information from identified or predicted protein interfaces in ambiguous interaction restraints (AIRs) to drive the docking process. HADDOCK can deal with a large class of modeling problems including protein-protein, protein-nucleic acids and protein-ligand complexes. 
@@ -569,7 +585,8 @@ Offers multiple access interfaces to the users:
    <resource>
       <name>Open PHACTS</name>
       <homepage>https://www.openphacts.org/</homepage>
-      <resourceType>Service, Container</resourceType>
+      <resourceType>Service</resourceType>
+      <resourceType>Container</resourceType>
       <interface>
          <interfaceType>HTTP WS</interfaceType>
       </interface>
