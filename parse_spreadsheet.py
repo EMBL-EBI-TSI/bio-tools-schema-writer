@@ -62,7 +62,7 @@ for row_i in xrange(3,35):
 		xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactEmail')
 		xml_output_resource_contact_email.text = row[9]
 	if len(row[10]) > 0:
-		xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactUrl')
+		xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactURL')
 		xml_output_resource_contact_email.text = row[10]
 	xml_output_resource_contact_name = ET.SubElement(xml_output_resource_contact, 'contactName')
 	xml_output_resource_contact_name.text = row[8]
