@@ -43,7 +43,7 @@ for row_i in xrange(3,35):
 	
 	# set description
 	xml_output_resource_description = ET.SubElement(xml_output_resource, 'description')
-	xml_output_resource_description.text = row[10]
+	xml_output_resource_description.text = row[11]
 
 	# set topic
 	xml_output_resource_topic = ET.SubElement(xml_output_resource, 'topic')
@@ -58,8 +58,12 @@ for row_i in xrange(3,35):
 
 	# set contact
 	xml_output_resource_contact = ET.SubElement(xml_output_resource, 'contact')
-	xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactEmail')
-	xml_output_resource_contact_email.text = row[9]
+	if len(row[9]) > 0:
+		xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactEmail')
+		xml_output_resource_contact_email.text = row[9]
+	if len(row[10]) > 0:
+		xml_output_resource_contact_email = ET.SubElement(xml_output_resource_contact, 'contactUrl')
+		xml_output_resource_contact_email.text = row[10]
 	xml_output_resource_contact_name = ET.SubElement(xml_output_resource_contact, 'contactName')
 	xml_output_resource_contact_name.text = row[8]
 
