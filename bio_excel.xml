@@ -3,6 +3,7 @@
    <resource>
       <name>PMut</name>
       <homepage>http://mmb.pcb.ub.es/PMut/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -20,6 +21,7 @@
    <resource>
       <name>BWA - SamTools - Picard</name>
       <homepage>https://www.bsc.es/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Container</resourceType>
       <interface>
          <interfaceType>API</interfaceType>
@@ -37,6 +39,7 @@
    <resource>
       <name>Maker</name>
       <homepage>http://www.yandell-lab.org/software/maker.html</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Container</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -54,6 +57,7 @@
    <resource>
       <name>GATK</name>
       <homepage>https://www.broadinstitute.org/gatk/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Container</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -71,6 +75,7 @@
    <resource>
       <name>Bowtie</name>
       <homepage>http://bowtie-bio.sourceforge.net/index.shtml</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Container</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -88,6 +93,7 @@
    <resource>
       <name>Tophat</name>
       <homepage>https://ccb.jhu.edu/software/tophat/index.shtml</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Container</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -105,6 +111,7 @@
    <resource>
       <name>transPLANT-INB Cloud</name>
       <homepage>http://www.transplantdb.eu/Cloud</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -122,6 +129,7 @@
    <resource>
       <name>EBI Tools Portfolio</name>
       <homepage>http://www.ebi.ac.uk</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -145,6 +153,7 @@
    <resource>
       <name>COMPSs</name>
       <homepage>https://www.bsc.es/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>API</interfaceType>
@@ -174,6 +183,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>Galaxy</name>
       <homepage>https://galaxyproject.org/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -191,6 +201,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>Taverna</name>
       <homepage>http://incubator.apache.org/projects/taverna.html</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>Desktop GUI</interfaceType>
@@ -211,6 +222,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>KNIME</name>
       <homepage>http://www.knime.org/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Platform</resourceType>
       <interface>
          <interfaceType>Desktop GUI</interfaceType>
@@ -228,6 +240,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>CS-ROSETTA3</name>
       <homepage>http://haddock.science.uu.nl/enmr/services/CS-ROSETTA3/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -245,6 +258,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>3D-DART</name>
       <homepage>http://haddock.science.uu.nl/services/3DDART/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -263,6 +277,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>Gromacs</name>
       <homepage>http://www.gromacs.org/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Library</resourceType>
       <interface>
          <interfaceType>API</interfaceType>
@@ -280,6 +295,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>CPMD</name>
       <homepage>http://www.cpmd.org/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Tool</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -297,6 +313,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>MDWeb</name>
       <homepage>http://mmb.irbbarcelona.org/MDWeb/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -314,6 +331,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>MDMoby</name>
       <homepage>http://mmb.irbbarcelona.org/MDWeb/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>HTTP WS</interfaceType>
@@ -334,6 +352,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>MDdMD</name>
       <homepage>http://mmb.irbbarcelona.org/MDdMD/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -351,6 +370,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>GOdMD</name>
       <homepage>http://mmb.irbbarcelona.org/GOdMD/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -368,6 +388,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>DISCRETE (DMD)</name>
       <homepage>http://mmb.irbbarcelona.org</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Tool</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -385,6 +406,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>MoDEL</name>
       <homepage>http://mmb.irbbarcelona.org/MoDEL/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -402,6 +424,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>BIGNASim</name>
       <homepage>http://mmb.irbbarcelona.org/BigNASim/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -419,6 +442,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>FlexServ</name>
       <homepage>http://mmb.irbbarcelona.org/FlexServ/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -436,6 +460,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>DNAlive</name>
       <homepage>http://mmb.irbbarcelona.org/DNAlive/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -453,6 +478,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>NAFlex</name>
       <homepage>http://mmb.irbbarcelona.org/NAFlex/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -470,6 +496,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>PCASuite</name>
       <homepage>http://mmb.pcb.ub.edu/software/pcasuite/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Tool</resourceType>
       <interface>
          <interfaceType>Command line</interfaceType>
@@ -487,6 +514,7 @@ COMPSs workflows portable to HPC and Cloud without change
    <resource>
       <name>GROMACS grid-enabled WeNMR portal</name>
       <homepage>http://haddock.science.uu.nl/enmr/services/GROMACS/main.php</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -506,6 +534,7 @@ Note: requires registration with the WeNMR Virtual Research Community (www.wenmr
    <resource>
       <name>HADDOCK</name>
       <homepage>http://haddock.science.uu.nl/services/HADDOCK2.2/haddock.php</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -537,6 +566,7 @@ Offers multiple access interfaces to the users:
    <resource>
       <name>HADDOCK grid-enabled</name>
       <homepage>http://haddock.science.uu.nl/services/HADDOCK2.2/haddock.php</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -568,6 +598,7 @@ Offers multiple access interfaces to the users:
    <resource>
       <name>SeaBed</name>
       <homepage>http://www.bsc.es/SEABED</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <interface>
          <interfaceType>Web UI</interfaceType>
@@ -579,13 +610,13 @@ Offers multiple access interfaces to the users:
       </function>
       <contact>
          <contactEmail>info@irbbarcelona.org</contactEmail>
-         <contactURL>info@irbbarcelona.org</contactURL>
          <contactName>Institute for Research in Biomedicine Barcelona</contactName>
       </contact>
    </resource>
    <resource>
       <name>Open PHACTS</name>
       <homepage>https://www.openphacts.org/</homepage>
+      <collection>BioExcel</collection>
       <resourceType>Service</resourceType>
       <resourceType>Container</resourceType>
       <interface>
@@ -598,7 +629,6 @@ Offers multiple access interfaces to the users:
       </function>
       <contact>
          <contactEmail>info@openphactsfoundation.org</contactEmail>
-         <contactURL>info@openphactsfoundation.org</contactURL>
          <contactName>Open PHACTS foundation</contactName>
       </contact>
    </resource>

@@ -30,6 +30,10 @@ for row_i in xrange(3,35):
 	xml_output_resource_homepage = ET.SubElement(xml_output_resource, 'homepage')
 	xml_output_resource_homepage.text = row[1]
 	
+	# set collection
+	xml_output_resource_collection = ET.SubElement(xml_output_resource, 'collection')
+	xml_output_resource_collection.text = 'BioExcel'
+
 	# set resource type
 	for resource_type_elem in row[2].split(','):
 		xml_output_resource_resource_type = ET.SubElement(xml_output_resource, 'resourceType')
